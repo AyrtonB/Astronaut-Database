@@ -1,0 +1,17 @@
+name: AstroDB
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - matplotlib
+  - nodejs
+  - numpy
+  - pandas
+  - seaborn
+  - pip
+
+  - pip:
+      - ipypb
+      - feautils
